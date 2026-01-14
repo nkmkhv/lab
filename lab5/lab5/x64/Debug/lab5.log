@@ -1,0 +1,7 @@
+﻿  lab5.cpp
+C:\Users\PC\source\repos\lab5\lab5\lab5.cpp(13,21): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+C:\Users\PC\source\repos\lab5\lab5\lab5.cpp(15,12): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\PC\source\repos\lab5\lab5\lab5.cpp(19,15): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\PC\source\repos\lab5\lab5\lab5.cpp(22,15): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\PC\source\repos\lab5\lab5\lab5.cpp(25,15): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  lab5.vcxproj -> C:\Users\PC\source\repos\lab5\x64\Debug\lab5.exe
