@@ -14,9 +14,10 @@ float mean(float arr[3]) {
     }
     return (sum / (3.0 - count));
 }
-
+//сделать перегрузку функции
+/*
 float lab1_1(float number) {
-    return pow(number, -1);
+    return pow(number, -1); 
 }
 float lab1_2(float number) {
     return pow(number, 2);
@@ -24,6 +25,8 @@ float lab1_2(float number) {
 float lab1_3(float number) {
     return pow(number, 5);
 }
+в void функцию превротить
+*/
 int main()
 {
     setlocale(LC_ALL, "RU");
