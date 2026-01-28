@@ -4,15 +4,26 @@
 #include <iostream>
 
 float mean(float arr[3]) {
-    int sum = 0;
-    int count = 0;
+    float sum = 0;
+    float count = 0;
     for (int i = 0; i < 3; ++i) {
-        if (arr[i] == 0) {
+        if (!(arr[i] == 0)) {
             count += 1;
         }
         sum += arr[i];
     }
-    return (sum / (3.0 - count));
+    return (sum / count);
+}
+float mean(float arr[], int size) {
+    float sum = 0;
+    float count = 0;
+    for (int i = 0; i < size; ++i) {
+        if (!(arr[i] == 0)) {
+            count += 1;
+        }
+        sum += arr[i];
+    }
+    return (sum / count);
 }
 //сделать перегрузку функции
 /*
@@ -36,16 +47,16 @@ int main()
     for (int i = 0; i < 3; ++i) {
         std::cin >> arr[i];
     };
-    std::cout << "Используется функция для нахождения ср. знач. без учёта нулей. Ответ: " << mean(arr);
+    std::cout << "Используется функция для нахождения ср. знач. без учёта нулей. Ответ: " << mean(arr, 3);
 
     float number;
     do {
         std::cout << "\nПункт 2. Вычисление обратного, а также 2-й и 5-й степеней. Введите число, кроме нуля.\n";
         std::cin >> number;
     } while (number == 0);
-    std::cout << "\nИспользуется функция для нахождения обратной числа. Ответ: " << lab1_1(number);
-    std::cout << "\nИспользуется функция для нахождения числа в квадрате. Ответ: " << lab1_2(number);
-    std::cout << "\nИспользуется функция для нахождения числа в пятой степени. Ответ: " << lab1_3(number);
+    void lab(); {
+        std::cout << "Используется void функция вычисления обратного, а также 2-й и 5-й степеней числа. \nОбратное: " << pow(number, -1) << "\nКвадрат числа: " << pow(number, 2) << "\n5-я степень числа: " << pow(number, 5);
+    }
 
 }
 

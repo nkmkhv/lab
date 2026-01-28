@@ -15,8 +15,8 @@ int main()
         cin >> x[i];
     }
     if (x[0] > x[9]) {// поправить индексы
-        for (int i = 0; i < 10; ++i) {
-            for (int j = i + 1; j < 11; ++j) {
+        for (int i = 0; i < 9; ++i) {
+            for (int j = i + 1; j < 10; ++j) {
                 if (x[i] < x[j]) {
                     swap(x[i], x[j]);
                 }
@@ -33,7 +33,7 @@ int main()
         {0, 0, 0, 0},
         {0, 0, 0, 0}
     };
-    int max = -2147483647;// поправить границу
+    int max = INT_MIN;// поправить границу
     int index = -1;
     for (int i = 0; i < 3; ++i) {
         for (int j = 0; j < 4; ++j) {
